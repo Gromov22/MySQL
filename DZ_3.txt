@@ -1,0 +1,4 @@
+gromov@192 ~ % mysqldump examples > sample
+gromov@192 ~ % ls -la | grep sample
+Перед этим создал БД
+gromov@192 ~ % mysql sample < sample
